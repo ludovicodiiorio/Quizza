@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quizza</string>
+    <string name="credits">Un gioco sviluppato da \n \n
+                            Amine Matqoune \n<br />
+                            Ludovico Di Iorio</string>
+    <string name="register_button_text">Registrati</string>
+    <string name="login_button_text">Accedi</string>
+</resources>
