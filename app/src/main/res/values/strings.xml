@@ -6,4 +6,8 @@
                             Ludovico Di Iorio</string>
     <string name="login_button_text">Login</string>
     <string name="register_button_text">Register</string>
+    <string name="exit_dialog_title">EXIT?</string>
+    <string name="exit_dialog_text">Are you sure you want exit Quizza?</string>
+    <string name="yes_text">YES</string>
+    <string name="no_text">NO</string>
 </resources>

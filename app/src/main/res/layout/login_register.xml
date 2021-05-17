@@ -71,14 +71,48 @@
             android:textColor="@color/white"
             android:textSize="36sp" />
 
+        <LinearLayout
+            android:id="@+id/btnsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.2"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/btnMusic"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="2"
+                android:background="@drawable/volume_up" />
+
+            <View
+                android:id="@+id/emptyView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8" />
+
+            <Button
+                android:id="@+id/btnPalette"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="2"
+                android:background="@drawable/palette" />
+        </LinearLayout>
+
         <TextView
             android:id="@+id/tvCreditsLR"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginBottom="50dp"
-            android:layout_weight="4.4"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1.2"
             android:fontFamily="@font/bubbler_one"
-            android:gravity="bottom|center"
+            android:gravity="center"
             android:maxLines="10"
             android:text="@string/credits"
             android:textColor="#FFFFFF" />
