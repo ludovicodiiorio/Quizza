@@ -8,6 +8,19 @@
     <string name="register_button_text">Register</string>
     <string name="exit_dialog_title">EXIT?</string>
     <string name="exit_dialog_text">Are you sure you want exit Quizza?</string>
+    <string name="sound_alert_title">AUDIO</string>
+    <string name="sound_disable_text">Disable audio?</string>
+    <string name="sound_enable_text">Enable audio?</string>
     <string name="yes_text">YES</string>
     <string name="no_text">NO</string>
+    <string name="username_uppercase">USERNAME</string>
+    <string name="email_uppercase">E-MAIL</string>
+    <string-array name="avatar_list">
+        <item>Joe</item>
+        <item>Lara</item>
+        <item>Boe</item>
+        <item>Meg</item>
+        <item>Mike</item>
+        <item>Rosa</item>
+    </string-array>
 </resources>

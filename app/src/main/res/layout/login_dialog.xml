@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvQuizzaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/blue_background"
+        android:fontFamily="@font/coiny"
+        android:gravity="center"
+        android:text="@string/login_button_text"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="9dp"
+        android:ems="10"
+        android:fontFamily="@font/coiny"
+        android:gravity="center"
+        android:hint="@string/username_uppercase"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/etpPassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="9dp"
+        android:ems="10"
+        android:fontFamily="@font/coiny"
+        android:gravity="center"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="6"
+            android:background="@drawable/login_button"
+            android:fontFamily="@font/coiny"
+            android:text="Login"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
