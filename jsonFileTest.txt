@@ -1,0 +1,1 @@
+Questo file lo uso per provare a scaricare una risorsa dalla rete, tramite la libreia Volley. Ciò servirà in seguito per scaicare un file json.
